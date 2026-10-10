@@ -35,7 +35,7 @@ GitGym (以下「本アプリ」) は、Git / GitHub のコマンドを練習す
 
 ## お問い合わせ
 - お問い合わせフォーム: https://docs.google.com/forms/d/e/1FAIpQLSdPgMwpQ0UY452NT8IxL1iNRaFLXkrJ0drfTfPLe7ty7sf1pQ/viewform
-- GitHub Issues: https://github.com/tsutsumi03/gitgym/issues
+- GitHub Issues: https://github.com/tsutsumi03/tsutsumi03.github.io/issues
 
 お問い合わせフォームに入力された内容は、返信と改善のためにのみ使用し、第三者には提供しません。
 
@@ -71,6 +71,6 @@ When this policy changes, this page will be updated. Before adding features such
 
 ## Contact
 - Contact form: https://docs.google.com/forms/d/e/1FAIpQLSdPgMwpQ0UY452NT8IxL1iNRaFLXkrJ0drfTfPLe7ty7sf1pQ/viewform
-- GitHub Issues: https://github.com/tsutsumi03/gitgym/issues
+- GitHub Issues: https://github.com/tsutsumi03/tsutsumi03.github.io/issues
 
 Information you submit through the contact form is used only to reply and to improve the app, and is not shared with third parties.
