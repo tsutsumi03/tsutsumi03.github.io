@@ -24,7 +24,7 @@ GitGym (以下「本アプリ」) は、Git / GitHub のコマンドを練習す
 学習の進み具合 (クリアしたステージ、星の数、クイズの自己ベスト)、設定 (言語、外観)、広告を表示する頻度の管理に使う回数は、**あなたの端末の中だけ**に保存されます。これらは開発者にも広告の配信事業者にも送信されません。アプリを削除すると、これらの情報も削除されます。設定画面からスターをリセットすることもできます。
 
 ## 広告について
-本アプリは、Google AdMob を使って広告を表示します。広告の配信・効果の測定・不正の防止のために、Google は広告 ID (IDFA)、IP アドレス、端末の情報、広告の閲覧やタップの情報などを取得することがあります。取得された情報は Google のプライバシーポリシーに従って取り扱われます。開発者は、Google が取得した個人を特定できる情報にアクセスしません。
+本アプリは、Google AdMob を使って広告を表示します。広告の配信・効果の測定・不正の防止のために、Google は広告 ID (IDFA)、IP アドレス、端末の情報、広告 (動画を含む) の閲覧やタップの情報などを取得することがあります。取得された情報は Google のプライバシーポリシーに従って取り扱われます。開発者は、Google が取得した個人を特定できる情報にアクセスしません。
 
 - 追跡の許可: iOS では、広告をあなたに合ったものにするため、初回の起動時に「追跡の許可」をお尋ねします。許可しなくても、本アプリはすべての機能を使えます (表示される広告が、あなたに合わないものになります)。設定アプリの「プライバシーとセキュリティ」→「トラッキング」から、いつでも変更できます。
 - 同意の確認: EU・英国・スイスなどでは、法令に従い、広告に関する同意を確認する画面を表示します。
@@ -67,7 +67,7 @@ The app has no accounts and no sign-in.
 Your progress (cleared stages, stars, best quiz scores), your settings (language, appearance), and a counter used to decide how often an ad is shown are stored **only on your device**. They are not sent to the developer or to any ad provider. Deleting the app deletes this information. You can also reset your stars from the settings screen.
 
 ## About ads
-The app shows ads using Google AdMob. To deliver ads, measure their performance, and prevent fraud, Google may collect your advertising identifier (IDFA), IP address, device information, and information about the ads you view or tap. Google handles this information under its own privacy policy. The developer does not have access to personally identifiable information that Google collects.
+The app shows ads using Google AdMob. To deliver ads, measure their performance, and prevent fraud, Google may collect your advertising identifier (IDFA), IP address, device information, and information about the ads (including video ads) you view or tap. Google handles this information under its own privacy policy. The developer does not have access to personally identifiable information that Google collects.
 
 - App tracking permission: on iOS the app asks for "tracking" permission on first launch so ads can be more relevant to you. The app works fully even if you decline (the ads you see will be less relevant). You can change this anytime in Settings → Privacy & Security → Tracking.
 - Consent: in the EU, the UK, Switzerland, and similar regions, the app shows a screen to confirm your consent for ads, as required by law.
