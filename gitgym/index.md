@@ -10,4 +10,3 @@ A practice app for learning Git and GitHub commands by running them inside the a
 
 - [プライバシーポリシー / Privacy Policy](privacy)
 - [お問い合わせフォーム / Contact form](https://docs.google.com/forms/d/e/1FAIpQLSdPgMwpQ0UY452NT8IxL1iNRaFLXkrJ0drfTfPLe7ty7sf1pQ/viewform)
-- [GitHub Issues](https://github.com/tsutsumi03/tsutsumi03.github.io/issues)
