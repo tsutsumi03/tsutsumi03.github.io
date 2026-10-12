@@ -7,3 +7,8 @@ Public pages (about, privacy policy, and support) for my apps.
 
 - 紹介 / About: https://tsutsumi03.github.io/gitgym/
 - プライバシーポリシー / Privacy Policy: https://tsutsumi03.github.io/gitgym/privacy
+
+## まちぬり
+
+- 紹介・サポート: https://tsutsumi03.github.io/machinuri/
+- プライバシーポリシー: https://tsutsumi03.github.io/machinuri/privacy/
