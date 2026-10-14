@@ -35,7 +35,7 @@ Google による情報の取り扱い: <https://policies.google.com/technologies
 
 ## 運営者・お問い合わせ
 - 運営者: Takuro Tsutsumi
-- お問い合わせ: [お問い合わせフォーム](CONTACT_FORM_URL) ([サポートページ](../))
+- お問い合わせ: [お問い合わせフォーム](https://docs.google.com/forms/d/e/1FAIpQLSd24www0ouBNxYe53VQJm0l395FkwENjp5_lrWAExr7SuT-nA/viewform) ([サポートページ](../))
 
 お問い合わせフォームに入力された内容は、返信と改善のためにのみ使用し、第三者には提供しません。
 
@@ -73,6 +73,6 @@ If this policy changes, this page will be updated. If a feature that changes how
 
 ## Developer and contact
 - Developer: Takuro Tsutsumi
-- Contact: [contact form](CONTACT_FORM_URL) ([support page](../))
+- Contact: [contact form](https://docs.google.com/forms/d/e/1FAIpQLSd24www0ouBNxYe53VQJm0l395FkwENjp5_lrWAExr7SuT-nA/viewform) ([support page](../))
 
 Content submitted through the contact form is used only to reply and improve the App, and is not provided to third parties.
