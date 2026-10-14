@@ -9,7 +9,7 @@ title: NumCage (ナンケージ)
 A number puzzle: fill the grid so that each block adds up to its small number.
 
 - [プライバシーポリシー / Privacy Policy](privacy/)
-- [お問い合わせフォーム / Contact form](CONTACT_FORM_URL)
+- [お問い合わせフォーム / Contact form](https://docs.google.com/forms/d/e/1FAIpQLSd24www0ouBNxYe53VQJm0l395FkwENjp5_lrWAExr7SuT-nA/viewform)
 
 ## あそびかた
 
@@ -37,7 +37,7 @@ A number puzzle: fill the grid so that each block adds up to its small number.
 「設定 → 言語」で、端末に合わせる・日本語・English を選べます。
 
 ## お問い合わせ
-不具合のご報告・ご要望は、[お問い合わせフォーム](CONTACT_FORM_URL)からお送りください。お使いの端末 (例: iPhone 15 / iOS 26) と、アプリのバージョンを添えていただけると助かります。
+不具合のご報告・ご要望は、[お問い合わせフォーム](https://docs.google.com/forms/d/e/1FAIpQLSd24www0ouBNxYe53VQJm0l395FkwENjp5_lrWAExr7SuT-nA/viewform)からお送りください。お使いの端末 (例: iPhone 15 / iOS 26) と、アプリのバージョンを添えていただけると助かります。
 
 ---
 
@@ -50,7 +50,7 @@ A number puzzle: fill the grid so that each block adds up to its small number.
 - Your records and in-progress puzzles are stored only on your device. Deleting the app deletes them. You can erase records from Settings → Reset records
 - The app is free and shows banner ads, interstitial ads (after every third cleared puzzle) and rewarded video ads (for hints). If a rewarded ad cannot be loaded, up to 3 hints per day are free
 
-For bug reports and requests, please use the [contact form](CONTACT_FORM_URL). Including your device (e.g. iPhone 15 / iOS 26) and the app version helps.
+For bug reports and requests, please use the [contact form](https://docs.google.com/forms/d/e/1FAIpQLSd24www0ouBNxYe53VQJm0l395FkwENjp5_lrWAExr7SuT-nA/viewform). Including your device (e.g. iPhone 15 / iOS 26) and the app version helps.
 
 ---
 
