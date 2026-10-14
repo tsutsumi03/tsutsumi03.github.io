@@ -12,3 +12,8 @@ Public pages (about, privacy policy, and support) for my apps.
 
 - 紹介・サポート: https://tsutsumi03.github.io/machinuri/
 - プライバシーポリシー: https://tsutsumi03.github.io/machinuri/privacy/
+
+## NumCage (ナンケージ)
+
+- 紹介・サポート: https://tsutsumi03.github.io/numcage/
+- プライバシーポリシー: https://tsutsumi03.github.io/numcage/privacy/
