@@ -12,6 +12,20 @@ title: Pitalgo
 - [プライバシーポリシー](privacy/)
 - [お問い合わせフォーム](https://docs.google.com/forms/d/e/1FAIpQLSfjxhPHGigAXKQtikbgR76WcnobIKyl60h8EqkbotYuOQozAg/viewform)
 
+## よくある質問
+
+### 記録はどこに保存されますか？
+クリアしたパズル・星の数・まとめ問題の成績は、端末の中だけに保存されます。サーバーには送りません。アプリを削除すると消えます。機種変更で引き継ぐ機能はありません。
+
+### 記録を消したい
+「設定 → 進み具合をリセット」で、星とまとめ問題の成績を消せます。
+
+### 広告が表示されます
+無料で提供するため、バナー広告と全画面広告 (正解 5 回に 1 回) を表示します。広告の取り扱いは[プライバシーポリシー](privacy/)をご覧ください。
+
+### コードを Python 風に表示したい
+「設定 → コードの書き方」で、DNCL と Python を切り替えられます。同じプログラムの表示が変わるだけで、実行のしかたは変わりません。
+
 ## お問い合わせ
 不具合のご報告・ご要望は、[お問い合わせフォーム](https://docs.google.com/forms/d/e/1FAIpQLSfjxhPHGigAXKQtikbgR76WcnobIKyl60h8EqkbotYuOQozAg/viewform)からお送りください。お使いの端末 (例: iPhone 15 / iOS 26) と、アプリのバージョン (設定画面の「バージョン」) を添えていただけると助かります。
 

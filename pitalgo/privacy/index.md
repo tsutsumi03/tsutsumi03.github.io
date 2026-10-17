@@ -39,7 +39,8 @@ Google による情報の取り扱い: https://policies.google.com/technologies/
 ## 変更
 本ポリシーを変更するときは、このページを更新します。課金などの機能を追加する場合は、事前にこのページで取り扱いを説明します。
 
-## お問い合わせ
-- お問い合わせフォーム: https://docs.google.com/forms/d/e/1FAIpQLSfjxhPHGigAXKQtikbgR76WcnobIKyl60h8EqkbotYuOQozAg/viewform
+## 運営者・お問い合わせ
+- 運営者: Takuro Tsutsumi
+- お問い合わせ: [サポートページ](../) のお問い合わせフォームから
 
 お問い合わせフォームに入力された内容は、返信と改善のためにのみ使用し、第三者には提供しません。

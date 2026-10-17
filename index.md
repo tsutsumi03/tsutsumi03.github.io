@@ -13,3 +13,4 @@ Public pages (about, privacy policy, and support) for my apps.
 - [GitGym](gitgym/) — Git と GitHub のコマンドを、アプリの中で動かして学ぶ練習アプリ / Learn Git and GitHub commands by running them in the app
 - [まちぬり](machinuri/) — 行った市区町村を塗って、日本地図を塗りつぶす旅の記録アプリ / A travel log app: color in the Japanese municipalities you have visited
 - [NumCage (ナンケージ)](numcage/) — ブロックの合計になるように数字を入れる足し算パズル / An addition-only number puzzle
+- [Pitalgo (ピタルゴ)](pitalgo/) — 共通テスト「情報I」の DNCL を、パズルを解きながら身につける学習アプリ
