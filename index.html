@@ -1,10 +1,9 @@
 ---
 layout: default
-title: tsutsumi03 apps
+title: "tsutsumi's products"
 ---
 
 <section class="hero">
-  <h1>tsutsumi03 apps</h1>
   <p>個人で開発している Web サービスと iOS アプリの一覧です。各アプリの紹介・サポート窓口・プライバシーポリシーを掲載しています。</p>
 </section>
 
@@ -15,9 +14,9 @@ title: tsutsumi03 apps
   {%- for app in group.items %}
   {%- if app.slug %}{% assign home = '/' | append: app.slug | append: '/' | relative_url %}{% else %}{% assign home = app.site %}{% endif %}
   <li>
-    <div class="app-card" style="--app-color: {{ app.color }}">
+    <div class="app-card">
       <div class="app-card-head">
-        <span class="app-mark" aria-hidden="true">{{ app.mark }}</span>
+        <img class="app-icon" src="{{ app.icon | relative_url }}" alt="" width="56" height="56" loading="lazy">
         <div>
           <h3><a href="{{ home }}">{{ app.name }}</a>{% if app.reading %}<span class="app-reading">{{ app.reading }}</span>{% endif %}</h3>
           <div class="app-kind">{{ app.kind }}</div>
