@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'ja' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+</head>
+<body>
+  {%- comment -%} URL の最初のフォルダ名から、どのアプリのページかを調べる {%- endcomment -%}
+  {%- assign slug = page.url | split: '/' | where_exp: 'part', 'part != ""' | first -%}
+  {%- assign app = nil -%}
+  {%- if slug -%}{%- assign app = site.data.apps | where: 'slug', slug | first -%}{%- endif -%}
+  {%- assign app_url = '/' | append: slug | append: '/' -%}
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    {%- if app %}
+    <div class="page-bar">
+      <nav class="breadcrumb" aria-label="パンくずリスト">
+        <a href="{{ '/' | relative_url }}">トップ</a>
+        <span aria-hidden="true">/</span>
+        {%- if page.url == app_url %}
+        <span aria-current="page">{{ app.name }}</span>
+        {%- else %}
+        <a href="{{ app_url | relative_url }}">{{ app.name }}</a>
+        <span aria-hidden="true">/</span>
+        <span aria-current="page">プライバシーポリシー</span>
+        {%- endif %}
+      </nav>
+      {%- if page.url == app_url %}
+      {%- if app.store and app.store != '' %}
+      <a class="button button-primary" href="{{ app.store }}">App Store で見る</a>
+      {%- else %}
+      <span class="badge">App Store で近日公開</span>
+      {%- endif %}
+      {%- endif %}
+    </div>
+    {%- endif %}
+
+    <article class="content{% if page.url == '/' %} content-home{% endif %}">
+      {{ content }}
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <span>© {{ 'now' | date: '%Y' }} Takuro Tsutsumi</span>
+    </div>
+  </footer>
+</body>
+</html>
