@@ -2,6 +2,9 @@ title: "tsutsumi's products"
 description: 個人で開発している Web サービスと iOS アプリの一覧。紹介・サポート・プライバシーポリシー。
 lang: ja
 url: https://tsutsumi03.github.io
+x_url: https://x.com/ttm_dev
+twitter:
+  username: ttm_dev
 
 plugins:
   - jekyll-seo-tag
