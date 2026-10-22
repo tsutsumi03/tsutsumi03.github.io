@@ -1,0 +1,48 @@
+---
+layout: default
+title: tsutsumi03 apps
+---
+
+<section class="hero">
+  <h1>tsutsumi03 apps</h1>
+  <p>Takuro Tsutsumi が個人で開発している Web サービスと iOS アプリの一覧です。各アプリの紹介・サポート窓口・プライバシーポリシーを掲載しています。</p>
+</section>
+
+{%- assign groups = site.data.apps | group_by: 'kind' %}
+{%- for group in groups %}
+<h2 class="section-title">{{ group.name }}</h2>
+<ul class="app-grid">
+  {%- for app in group.items %}
+  {%- if app.slug %}{% assign home = '/' | append: app.slug | append: '/' | relative_url %}{% else %}{% assign home = app.site %}{% endif %}
+  <li>
+    <div class="app-card" style="--app-color: {{ app.color }}">
+      <div class="app-card-head">
+        <span class="app-mark" aria-hidden="true">{{ app.mark }}</span>
+        <div>
+          <h3><a href="{{ home }}">{{ app.name }}</a>{% if app.reading %}<span class="app-reading">{{ app.reading }}</span>{% endif %}</h3>
+          <div class="app-kind">{{ app.kind }}</div>
+        </div>
+      </div>
+      <p class="app-summary">{{ app.summary }}</p>
+      <div class="app-links">
+        {%- if app.site %}
+        <a class="button button-primary" href="{{ app.site }}">サイトを開く</a>
+        {%- elsif app.store and app.store != '' %}
+        <a class="button button-primary" href="{{ app.store }}">App Store</a>
+        {%- else %}
+        <span class="badge">近日公開</span>
+        {%- endif %}
+        {%- for link in app.links %}
+        <a href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}">{{ link.label }}</a>
+        {%- endfor %}
+      </div>
+    </div>
+  </li>
+  {%- endfor %}
+</ul>
+{%- endfor %}
+
+<section class="about-en">
+  <h2 class="section-title">English</h2>
+  <p>Web services and iOS apps developed by Takuro Tsutsumi. Each app page has an overview, a support contact, and its privacy policy.</p>
+</section>
