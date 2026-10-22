@@ -64,15 +64,17 @@ a { color: var(--link); text-underline-offset: 2px; }
   letter-spacing: .01em;
 }
 
-main.wrap { flex: 1; padding-top: 40px; padding-bottom: 64px; }
+main.wrap { flex: 1; padding-top: 32px; padding-bottom: 64px; }
 
+/* パンくずは文字が小さいので、ヘッダーに少し寄せる。ボタンの有無で見出しの位置がずれないよう高さをそろえる */
 .page-bar {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 10px 16px;
-  margin-bottom: 20px;
+  min-height: 40px;
+  margin: -12px 0 16px;
 }
 
 .breadcrumb {
