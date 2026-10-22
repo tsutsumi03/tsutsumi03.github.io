@@ -23,17 +23,19 @@ title: "tsutsumi's products"
         </div>
       </div>
       <p class="app-summary">{{ app.summary }}</p>
-      <div class="app-links">
+      <div class="app-actions">
         {%- if app.site %}
         <a class="button button-primary" href="{{ app.site }}">サイトを開く</a>
         {%- elsif app.store and app.store != '' %}
         <a class="button button-primary" href="{{ app.store }}">App Store</a>
         {%- else %}
-        <span class="badge">近日公開</span>
+        <span class="badge">App Store で近日公開</span>
         {%- endif %}
-        {%- for link in app.links %}
-        <a href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}">{{ link.label }}</a>
-        {%- endfor %}
+        <div class="app-links">
+          {%- for link in app.links %}
+          <a class="button" href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}">{{ link.label }}</a>
+          {%- endfor %}
+        </div>
       </div>
     </div>
   </li>

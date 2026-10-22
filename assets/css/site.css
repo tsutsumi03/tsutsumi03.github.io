@@ -55,7 +55,25 @@ a { color: var(--link); text-underline-offset: 2px; }
   background: var(--surface);
 }
 
-.site-header .wrap { padding-top: 14px; padding-bottom: 14px; }
+.site-header .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.site-social {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.site-social:hover { color: var(--text); }
 
 .site-title {
   color: var(--text);
@@ -228,17 +246,18 @@ main.wrap { flex: 1; padding-top: 32px; padding-bottom: 64px; }
 
 .app-summary { margin: 0; flex: 1; }
 
-.app-links {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 8px 16px;
-  font-size: 14px;
-}
+.app-actions { display: grid; gap: 8px; }
 
-.app-links .button, .app-links .badge { min-height: 34px; padding: 0 14px; font-size: 13px; }
+.app-actions > .button, .app-actions > .badge { justify-content: center; }
+
+.app-links { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+
+.app-links .button { justify-content: center; font-weight: 500; }
+
+.app-actions .button, .app-actions .badge { min-height: 38px; padding: 0 8px; font-size: 13px; white-space: nowrap; }
 
 @media (max-width: 420px) {
   .wrap { padding: 0 16px; }
   .content h1 { font-size: 26px; }
+  .app-card { padding: 16px; }
 }
