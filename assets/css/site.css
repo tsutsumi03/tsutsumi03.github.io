@@ -64,7 +64,7 @@ a { color: var(--link); text-underline-offset: 2px; }
   letter-spacing: .01em;
 }
 
-main { flex: 1; padding-top: 28px; padding-bottom: 56px; }
+main.wrap { flex: 1; padding-top: 40px; padding-bottom: 64px; }
 
 .site-footer {
   border-top: 1px solid var(--border);
@@ -184,7 +184,7 @@ main { flex: 1; padding-top: 28px; padding-bottom: 56px; }
 
 /* トップページ */
 
-.hero { margin: 4px 0 8px; }
+.hero { margin: 0 0 16px; }
 
 .hero p { color: var(--muted); margin: 0; }
 
