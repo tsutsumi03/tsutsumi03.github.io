@@ -1,8 +1,7 @@
 title: tsutsumi03 apps
-description: Takuro Tsutsumi が個人で開発している Web サービスと iOS アプリの一覧。紹介・サポート・プライバシーポリシー。
+description: 個人で開発している Web サービスと iOS アプリの一覧。紹介・サポート・プライバシーポリシー。
 lang: ja
 url: https://tsutsumi03.github.io
-author: Takuro Tsutsumi
 
 plugins:
   - jekyll-seo-tag
