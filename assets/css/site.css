@@ -184,9 +184,7 @@ main { flex: 1; padding-top: 28px; padding-bottom: 56px; }
 
 /* トップページ */
 
-.hero { margin: 12px 0 36px; }
-
-.hero h1 { font-size: 34px; margin-bottom: 10px; }
+.hero { margin: 4px 0 8px; }
 
 .hero p { color: var(--muted); margin: 0; }
 
@@ -225,17 +223,12 @@ main { flex: 1; padding-top: 28px; padding-bottom: 56px; }
 
 .app-card-head { display: flex; align-items: center; gap: 14px; }
 
-.app-mark {
+.app-icon {
   flex: none;
-  display: grid;
-  place-items: center;
-  width: 48px;
-  height: 48px;
-  border-radius: 12px;
-  background: var(--app-color);
-  color: #fff;
-  font-size: 22px;
-  font-weight: 700;
+  width: 56px;
+  height: 56px;
+  border-radius: 13px;
+  border: 1px solid var(--border);
 }
 
 .app-card h3 { margin: 0; font-size: 18px; line-height: 1.4; }
@@ -262,6 +255,5 @@ main { flex: 1; padding-top: 28px; padding-bottom: 56px; }
 
 @media (max-width: 420px) {
   .wrap { padding: 0 16px; }
-  .hero h1 { font-size: 28px; }
   .content h1 { font-size: 26px; }
 }

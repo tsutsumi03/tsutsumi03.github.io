@@ -1,15 +1,15 @@
 # トップページの一覧と、各ページのパンくずに使う。
 # slug はこのサイト内のフォルダ名 (外部サイトのものは空)。
 # links の url は、このサイト内なら / から始まるパス、外部なら https:// から始まる URL。
+# icon はアプリアイコン (assets/icons/ に 192px 程度の PNG を置く)。
 # site は Web サービスの URL。
 # store は App Store の URL。まだ公開していないアプリは空にすると「近日公開」と表示する。
 
 - name: Kodrill
+  icon: /assets/icons/kodrill.png
   slug:
   kind: Web サービス
   site: https://kodrill.com/
-  color: "#7048e8"
-  mark: K
   summary: Java SE Bronze / Silver / Gold、Python 3 エンジニア認定試験などに対応した、プログラミング資格の問題演習サイト。
   links:
     - label: 利用規約
@@ -18,11 +18,10 @@
       url: https://kodrill.com/privacy
 
 - name: GitGym
+  icon: /assets/icons/gitgym.png
   slug: gitgym
   kind: iOS アプリ
   store:
-  color: "#e8590c"
-  mark: G
   summary: Git と GitHub のコマンドを、アプリの中で動かして学ぶ練習アプリ。
   links:
     - label: 紹介・サポート
@@ -31,11 +30,10 @@
       url: /gitgym/privacy
 
 - name: まちぬり
+  icon: /assets/icons/machinuri.png
   slug: machinuri
   kind: iOS アプリ
   store: https://apps.apple.com/jp/app/%E3%81%BE%E3%81%A1%E3%81%AC%E3%82%8A-%E5%B8%82%E5%8C%BA%E7%94%BA%E6%9D%91%E3%82%92%E5%A1%97%E3%82%8B%E6%97%85%E3%81%AE%E8%A8%98%E9%8C%B2/id6821511474
-  color: "#2f9e44"
-  mark: ま
   summary: 行った市区町村を塗って、日本地図を塗りつぶしていく旅の記録アプリ。
   links:
     - label: 紹介・サポート
@@ -44,12 +42,11 @@
       url: /machinuri/privacy/
 
 - name: NumCage
+  icon: /assets/icons/numcage.png
   reading: ナンケージ
   slug: numcage
   kind: iOS アプリ
   store:
-  color: "#3b5bdb"
-  mark: N
   summary: ブロックの合計になるように数字を入れていく、足し算だけのナンバーパズル。
   links:
     - label: 紹介・サポート
@@ -58,12 +55,11 @@
       url: /numcage/privacy/
 
 - name: Pitalgo
+  icon: /assets/icons/pitalgo.png
   reading: ピタルゴ
   slug: pitalgo
   kind: iOS アプリ
   store: https://apps.apple.com/jp/app/pitalgo-%E5%85%B1%E9%80%9A%E3%83%86%E3%82%B9%E3%83%88%E6%83%85%E5%A0%B1i%E5%AF%BE%E7%AD%96/id6823904843
-  color: "#0c8599"
-  mark: P
   summary: 共通テスト「情報I」の DNCL を、パズルを解きながら身につける学習アプリ。
   links:
     - label: 紹介・サポート
