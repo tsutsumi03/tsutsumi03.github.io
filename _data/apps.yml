@@ -4,6 +4,7 @@
 # icon はアプリアイコン (assets/icons/ に 192px 程度の PNG を置く)。
 # site は Web サービスの URL。
 # store は App Store の URL。まだ公開していないアプリは空にすると「近日公開」と表示する。
+# 並びはリリース順 (未公開のアプリは公開済みの後ろ)。同じ種別の中でもこの順に並ぶ。
 
 - name: Kodrill
   icon: /assets/icons/kodrill.png
@@ -17,18 +18,6 @@
     - label: プライバシーポリシー
       url: https://kodrill.com/privacy
 
-- name: GitGym
-  icon: /assets/icons/gitgym.png
-  slug: gitgym
-  kind: iOS アプリ
-  store:
-  summary: Git と GitHub のコマンドを、アプリの中で動かして学ぶ練習アプリ。
-  links:
-    - label: 紹介・サポート
-      url: /gitgym/
-    - label: プライバシーポリシー
-      url: /gitgym/privacy
-
 - name: まちぬり
   icon: /assets/icons/machinuri.png
   slug: machinuri
@@ -40,19 +29,6 @@
       url: /machinuri/
     - label: プライバシーポリシー
       url: /machinuri/privacy/
-
-- name: NumCage
-  icon: /assets/icons/numcage.png
-  reading: ナンケージ
-  slug: numcage
-  kind: iOS アプリ
-  store:
-  summary: ブロックの合計になるように数字を入れていく、足し算だけのナンバーパズル。
-  links:
-    - label: 紹介・サポート
-      url: /numcage/
-    - label: プライバシーポリシー
-      url: /numcage/privacy/
 
 - name: Pitalgo
   icon: /assets/icons/pitalgo.png
@@ -66,3 +42,28 @@
       url: /pitalgo/
     - label: プライバシーポリシー
       url: /pitalgo/privacy/
+
+- name: GitGym
+  icon: /assets/icons/gitgym.png
+  slug: gitgym
+  kind: iOS アプリ
+  store:
+  summary: Git と GitHub のコマンドを、アプリの中で動かして学ぶ練習アプリ。
+  links:
+    - label: 紹介・サポート
+      url: /gitgym/
+    - label: プライバシーポリシー
+      url: /gitgym/privacy
+
+- name: NumCage
+  icon: /assets/icons/numcage.png
+  reading: ナンケージ
+  slug: numcage
+  kind: iOS アプリ
+  store:
+  summary: ブロックの合計になるように数字を入れていく、足し算だけのナンバーパズル。
+  links:
+    - label: 紹介・サポート
+      url: /numcage/
+    - label: プライバシーポリシー
+      url: /numcage/privacy/
