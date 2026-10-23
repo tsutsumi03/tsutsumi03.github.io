@@ -3,7 +3,7 @@
 # links の url は、このサイト内なら / から始まるパス、外部なら https:// から始まる URL。
 # icon はアプリアイコン (assets/icons/ に 192px 程度の PNG を置く)。
 # site は Web サービスの URL。
-# store は App Store の URL。まだ公開していないアプリは空にすると「近日公開」と表示する。
+# store は App Store の URL。まだ公開していないアプリは空にすると「近日公開予定」と表示する。
 # 並びは新しい順 (未公開のアプリは一番新しい扱いで先頭)。同じ種別の中でもこの順に並ぶ。
 # released は App Store での公開日 (YYYY-MM-DD)。公開済みのものだけ入れると、一覧に表示される。
 
