@@ -5,12 +5,13 @@
 # site は Web サービスの URL。
 # store は App Store の URL。まだ公開していないアプリは空にすると「近日公開予定」と表示する。
 # 並びは新しい順 (未公開のアプリは一番新しい扱いで先頭)。同じ種別の中でもこの順に並ぶ。
-# released は App Store での公開日 (YYYY-MM-DD)。公開済みのものだけ入れると、一覧に表示される。
+# released は公開日 (YYYY-MM-DD)。公開済みのものだけ入れると、一覧に表示される。
 
 - name: Kodrill
   icon: /assets/icons/kodrill.png
   slug:
   kind: Web サービス
+  released: 2026-09-18
   site: https://kodrill.com/
   summary: Java SE Bronze / Silver / Gold、Python 3 エンジニア認定試験などに対応した、プログラミング資格の問題演習サイト。
   links:
