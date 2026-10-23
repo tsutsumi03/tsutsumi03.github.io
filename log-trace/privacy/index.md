@@ -26,7 +26,7 @@ LOG//TRACE (以下「本アプリ」) は、ログを読んで攻撃の痕跡を
 解決した事件・星・ミス・ヒントの回数・調査の途中経過・目印をつけた行・設定 (外観、言語)・購入済みかどうか・画面を開いた回数などは、**あなたの端末の中だけ**に保存されます。これらは開発者にも第三者にも送信されません。アプリを削除すると、これらの情報も削除されます。設定画面から、事件の記録をリセットすることもできます。
 
 ### アプリ内課金について
-有料の章は、買い切り 1 回の「プレミアパス」で遊べます。購入と復元は Apple の App Store (StoreKit) が処理します。支払い方法・Apple Account の情報は Apple が管理し、開発者には届きません。本アプリは、購入が済んでいるかどうかを、Apple から端末に届く購入の情報で確かめ、端末内に保存します。
+有料の章は、買い切り 1 回の「プレミアパス」で遊べます。購入と復元は Apple の App Store (StoreKit) が処理します。支払い方法・Apple Account の情報は Apple が管理し、開発者には届きません。本アプリは、購入が済んでいるかどうかを、Apple から端末に届く購入の情報で確かめ、端末内に保存します。購入の履歴を外部に送信しません。
 
 ### 外部への通信
 事件の内容の表示と判定は、すべて端末の中で行います。通信するのは、購入・復元・価格の取得で Apple の App Store に接続するときだけです。また、設定画面からプライバシーポリシーやお問い合わせのページを開くと、端末のブラウザでそのページを開きます。
@@ -62,7 +62,7 @@ The App has no accounts or sign-in.
 Solved cases, stars, mistakes, hint counts, in-progress investigations, marked log lines, settings (appearance, language), whether you have purchased, and counts such as screen views are stored **only on your device**. They are not sent to the developer or to any third party. Deleting the App deletes this information. You can also reset your case records from Settings.
 
 ### In-app purchase
-Paid chapters are unlocked with a single one-time purchase, the "Premium Pass". Purchases and restores are processed by Apple's App Store (StoreKit). Your payment method and Apple Account information are managed by Apple and are not available to the developer. The App checks whether you have purchased using the purchase information Apple provides to your device, and stores the result on your device.
+Paid chapters are unlocked with a single one-time purchase, the "Premium Pass". Purchases and restores are processed by Apple's App Store (StoreKit). Your payment method and Apple Account information are managed by Apple and are not available to the developer. The App checks whether you have purchased using the purchase information Apple provides to your device, and stores the result on your device. It does not send your purchase history anywhere.
 
 ### Network communication
 Case content is displayed and answers are judged entirely on your device. The App connects to Apple's App Store only to purchase, restore, or fetch the price. If you open the privacy policy or contact page from Settings, the page opens in your device's browser.

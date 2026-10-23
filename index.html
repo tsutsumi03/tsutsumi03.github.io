@@ -7,11 +7,13 @@ title: "tsutsumi's products"
   <p>個人で開発している Web サービスと iOS アプリの一覧です。各アプリの紹介・サポート窓口・プライバシーポリシーを掲載しています。</p>
 </section>
 
-{%- assign groups = site.data.apps | group_by: 'kind' %}
-{%- for group in groups %}
-<h2 class="section-title">{{ group.name }}</h2>
+{%- comment %}種別の表示順は固定 (Web サービスが先)。新しい種別を足したら、ここにも足す{% endcomment %}
+{%- assign kinds = 'Web サービス|iOS アプリ' | split: '|' %}
+{%- for kind in kinds %}
+{%- assign items = site.data.apps | where: 'kind', kind %}
+<h2 class="section-title">{{ kind }}</h2>
 <ul class="app-grid">
-  {%- for app in group.items %}
+  {%- for app in items %}
   {%- if app.slug %}{% assign home = '/' | append: app.slug | append: '/' | relative_url %}{% else %}{% assign home = app.site %}{% endif %}
   <li>
     <div class="app-card">
