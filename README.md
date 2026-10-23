@@ -27,3 +27,8 @@ Public pages (about, privacy policy, and support) for my apps.
 
 - 紹介・サポート: https://tsutsumi03.github.io/pitalgo/
 - プライバシーポリシー: https://tsutsumi03.github.io/pitalgo/privacy/
+
+## LOG//TRACE
+
+- 紹介・サポート / About and support: https://tsutsumi03.github.io/log-trace/
+- プライバシーポリシー / Privacy Policy: https://tsutsumi03.github.io/log-trace/privacy/
