@@ -27,9 +27,6 @@ title: LOG//TRACE
 #### 購入した章が開かなくなった・機種変更した
 購入画面（有料の章を開くと表示されます）の「購入を復元」を押してください。同じ Apple アカウントで購入していれば、そのまま使えます。
 
-#### 購入の返金をしたい
-アプリ内の購入は Apple が処理しているため、返金は Apple に申請します。[Apple の案内](https://support.apple.com/ja-jp/118223)をご覧ください。
-
 #### 言語を変えたい
 「設定 → 言語」で、日本語と English を切り替えられます。初期設定は端末の言語に従います。
 
@@ -55,9 +52,6 @@ Use "Settings → Reset case records" to clear the ratings of all cases.
 
 #### A purchased chapter is locked / I got a new device
 Tap "Restore Purchases" on the purchase screen (shown when you open a paid chapter). If you bought it with the same Apple Account, it will unlock.
-
-#### I want a refund
-In-app purchases are processed by Apple, so refunds are requested from Apple. See [Apple's guide](https://support.apple.com/en-us/118223).
 
 #### I want to change the language
 Use "Settings → Language" to switch between 日本語 and English. By default the app follows your device language.
