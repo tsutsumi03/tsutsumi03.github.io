@@ -7,6 +7,18 @@
 # 並びは新しい順 (未公開のアプリは一番新しい扱いで先頭)。同じ種別の中でもこの順に並ぶ。
 # released は公開日 (YYYY-MM-DD)。公開済みのものだけ入れると、一覧に表示される。
 
+- name: LOG//TRACE
+  icon: /assets/icons/log-trace.png
+  slug: log-trace
+  kind: iOS アプリ
+  store:
+  summary: ログを読んで攻撃の痕跡をたどる、セキュリティ推理ゲーム。日本語・English。
+  links:
+    - label: 紹介・サポート
+      url: /log-trace/
+    - label: プライバシーポリシー
+      url: /log-trace/privacy/
+
 - name: Kodrill
   icon: /assets/icons/kodrill.png
   slug:
