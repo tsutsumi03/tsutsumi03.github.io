@@ -18,7 +18,9 @@ title: "tsutsumi's products"
   <li>
     <div class="app-card">
       <div class="app-card-head">
+        {%- if app.icon %}
         <img class="app-icon" src="{{ app.icon | relative_url }}" alt="" width="56" height="56" loading="lazy">
+        {%- endif %}
         <div>
           <h3><a href="{{ home }}">{{ app.name }}</a>{% if app.reading %}<span class="app-reading">{{ app.reading }}</span>{% endif %}</h3>
           <div class="app-kind">{{ app.kind }}{% if app.released %} ・ {{ app.released | date: "%Y年%-m月%-d日" }}リリース{% endif %}</div>
