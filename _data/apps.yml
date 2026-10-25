@@ -1,11 +1,22 @@
 # トップページの一覧と、各ページのパンくずに使う。
 # slug はこのサイト内のフォルダ名 (外部サイトのものは空)。
 # links の url は、このサイト内なら / から始まるパス、外部なら https:// から始まる URL。
-# icon はアプリアイコン (assets/icons/ に 192px 程度の PNG を置く)。
+# icon はアプリアイコン (assets/icons/ に 192px 程度の PNG を置く)。まだ無いアプリは書かないと、アイコンなしで表示する。
 # site は Web サービスの URL。
 # store は App Store の URL。まだ公開していないアプリは空にすると「近日公開予定」と表示する。
 # 並びは新しい順 (未公開のアプリは一番新しい扱いで先頭)。同じ種別の中でもこの順に並ぶ。
 # released は公開日 (YYYY-MM-DD)。公開済みのものだけ入れると、一覧に表示される。
+
+- name: マネビュー
+  slug: maneview
+  kind: iOS アプリ
+  store:
+  summary: 住宅ローン・自動車ローン・手取りと税金・積立・年金など、人生のお金の計算をまとめて保存・比較できるアプリ。
+  links:
+    - label: 紹介・サポート
+      url: /maneview/
+    - label: プライバシーポリシー
+      url: /maneview/privacy/
 
 - name: LOG//TRACE
   icon: /assets/icons/log-trace.png

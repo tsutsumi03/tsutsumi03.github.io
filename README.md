@@ -3,6 +3,11 @@
 アプリの紹介・プライバシーポリシー・サポート窓口の公開ページです。
 Public pages (about, privacy policy, and support) for my apps.
 
+## マネビュー (Maneview)
+
+- 紹介・サポート: https://tsutsumi03.github.io/maneview/
+- プライバシーポリシー: https://tsutsumi03.github.io/maneview/privacy/
+
 ## Kodrill
 
 - サイト: https://kodrill.com/
