@@ -8,6 +8,7 @@
 # released は公開日 (YYYY-MM-DD)。公開済みのものだけ入れると、一覧に表示される。
 
 - name: マネビュー
+  icon: /assets/icons/maneview.png
   slug: maneview
   kind: iOS アプリ
   store:
