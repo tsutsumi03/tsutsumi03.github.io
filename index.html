@@ -3,15 +3,22 @@ layout: default
 title: "tsutsumi's products"
 ---
 
-<section class="hero">
-  <p>個人で開発している Web サービスと iOS アプリの一覧です。各アプリの紹介・サポート窓口・プライバシーポリシーを掲載しています。</p>
-</section>
-
 {%- comment %}種別の表示順は固定 (Web サービスが先)。新しい種別を足したら、ここにも足す{% endcomment %}
 {%- assign kinds = 'Web サービス|iOS アプリ' | split: '|' %}
+
+<section class="hero">
+  <p>個人で開発している Web サービスと iOS アプリの一覧です。各アプリの紹介・サポート窓口・プライバシーポリシーを掲載しています。</p>
+  <nav class="kind-nav" aria-label="種別">
+    {%- for kind in kinds %}
+    {%- assign items = site.data.apps | where: 'kind', kind %}
+    <a href="#kind-{{ forloop.index }}">{{ kind }}<span class="kind-count">{{ items.size }}</span></a>
+    {%- endfor %}
+  </nav>
+</section>
+
 {%- for kind in kinds %}
 {%- assign items = site.data.apps | where: 'kind', kind %}
-<h2 class="section-title">{{ kind }}</h2>
+<h2 class="section-title" id="kind-{{ forloop.index }}">{{ kind }}<span class="kind-count">{{ items.size }}</span></h2>
 <ul class="app-grid">
   {%- for app in items %}
   {%- if app.slug %}{% assign home = '/' | append: app.slug | append: '/' | relative_url %}{% else %}{% assign home = app.site %}{% endif %}
@@ -22,22 +29,34 @@ title: "tsutsumi's products"
         <img class="app-icon" src="{{ app.icon | relative_url }}" alt="" width="56" height="56" loading="lazy">
         {%- endif %}
         <div>
-          <h3><a href="{{ home }}">{{ app.name }}</a>{% if app.reading %}<span class="app-reading">{{ app.reading }}</span>{% endif %}</h3>
-          <div class="app-kind">{{ app.kind }}{% if app.released %} ・ {{ app.released | date: "%Y年%-m月%-d日" }}リリース{% endif %}</div>
+          <h3><a href="{{ home }}">{{ app.name }}</a></h3>
+          {%- if app.reading %}<div class="app-reading">{{ app.reading }}</div>{% endif %}
         </div>
       </div>
       <p class="app-summary">{{ app.summary }}</p>
+      <dl class="app-meta">
+        {%- if app.languages %}
+        <div>
+          <dt>対応言語</dt>
+          <dd class="app-langs">{% for lang in app.languages %}<span class="tag">{{ lang }}</span>{% endfor %}</dd>
+        </div>
+        {%- endif %}
+        <div>
+          <dt>リリース</dt>
+          <dd>{% if app.released %}{{ app.released | date: "%Y年%-m月%-d日" }}{% else %}<span class="tag tag-soon">近日公開予定</span>{% endif %}</dd>
+        </div>
+      </dl>
       <div class="app-actions">
         {%- if app.site %}
         <a class="button button-primary" href="{{ app.site }}">サイトを開く</a>
         {%- elsif app.store and app.store != '' %}
-        <a class="button button-primary" href="{{ app.store }}">App Store</a>
+        <a class="button button-primary" href="{{ app.store }}">App Store で見る</a>
         {%- else %}
         <span class="badge">App Store で近日公開予定</span>
         {%- endif %}
         <div class="app-links">
           {%- for link in app.links %}
-          <a class="button" href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}">{{ link.label }}</a>
+          <a href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}">{{ link.label }}</a>
           {%- endfor %}
         </div>
       </div>
