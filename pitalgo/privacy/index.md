@@ -28,7 +28,7 @@ Pitalgo (以下「本アプリ」) は、共通テスト「情報I」の DNCL �
 - 同意の確認: EU・英国・スイスなどでは、法令に従い、広告に関する同意を確認する画面を表示します。
 - 学習の進み具合や設定の内容は、広告の配信には使いません。
 
-Google による情報の取り扱い: https://policies.google.com/technologies/partner-sites
+Google による情報の取り扱い: <https://policies.google.com/technologies/partner-sites>
 
 ## 外部への通信
 プログラムの実行は、すべて端末の中で行います。広告の配信のために Google と通信します。また、設定画面の「お問い合わせ」「プライバシーポリシー」を押すと、端末のブラウザでそれぞれのページを開きます。
