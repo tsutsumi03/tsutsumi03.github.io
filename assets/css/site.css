@@ -304,7 +304,9 @@ body:has(.content-home) .wrap { max-width: 1120px; }
 
 .app-actions > .button, .app-actions > .badge { justify-content: center; }
 
-.app-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 16px; font-size: 13px; }
+.app-links { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+
+.app-links .button { justify-content: center; font-weight: 500; }
 
 .app-actions .button, .app-actions .badge { min-height: 38px; padding: 0 8px; font-size: 13px; white-space: nowrap; }
 

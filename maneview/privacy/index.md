@@ -24,7 +24,7 @@ title: マネビュー プライバシーポリシー
 - 入力した金額・保存した計算・年齢・年収は、広告の配信には使いません。
 - プレミアムを購入すると、広告は表示されず、広告のための情報の取得も行いません。
 
-Google による情報の取り扱い: <https://policies.google.com/technologies/partner-sites>
+[Google による情報の取り扱い](https://policies.google.com/technologies/partner-sites)
 
 ## アプリ内課金について
 プレミアム (買い切り・年額・月額) の購入・復元は、Apple の App Store の仕組み (StoreKit) で行います。支払い方法・Apple アカウントの情報は Apple が取り扱い、開発者は受け取りません。本アプリは、購入が済んでいるかどうかを、Apple から端末に届く購入の情報で確かめて端末内に保存するだけで、購入の履歴を外部に送信しません。サブスクリプションの管理・解約は、iPhone の「設定」アプリから行えます。

@@ -19,7 +19,7 @@ title: NumCage プライバシーポリシー / Privacy Policy
 - 同意の確認: EU・英国・スイスなどでは、法令に従い、広告に関する同意を確認する画面を表示します。
 - 遊んだ記録や盤面の内容は、広告の配信には使いません。
 
-Google による情報の取り扱い: <https://policies.google.com/technologies/partner-sites>
+[Google による情報の取り扱い](https://policies.google.com/technologies/partner-sites)
 
 ## 外部への通信
 パズルの生成・記録の保存は、すべて端末の中で行います。外部と通信するのは、広告の配信 (Google) のときだけです。「今日の問題」の結果をシェアするときは、あなたが選んだアプリにだけ内容 (日付・タイム・盤面の形) を渡します。設定画面のリンクを押すと、端末のブラウザでこのサイトを開きます。
@@ -57,7 +57,7 @@ The App uses Google AdMob to show ads (banner ads, interstitial ads, and optiona
 - Consent: in the EU, UK, Switzerland and similar regions, the App shows a consent screen for ads as required by law.
 - Your play records and puzzles are not used for ad delivery.
 
-How Google uses information: <https://policies.google.com/technologies/partner-sites>
+[How Google uses information](https://policies.google.com/technologies/partner-sites)
 
 ## Network communication
 Puzzle generation and record keeping happen entirely on your device. The App communicates externally only to deliver ads (Google). When you share a daily result, the content (date, time, board shape) is handed only to the app you choose. Links in Settings open this site in your browser.
