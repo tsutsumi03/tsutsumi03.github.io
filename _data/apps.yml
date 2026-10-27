@@ -19,18 +19,6 @@
     - label: プライバシーポリシー
       url: /maneview/privacy/
 
-- name: LOG//TRACE
-  icon: /assets/icons/log-trace.png
-  slug: log-trace
-  kind: iOS アプリ
-  store:
-  summary: ログを読んで攻撃の痕跡をたどる、セキュリティ推理ゲーム。日本語・English。
-  links:
-    - label: 紹介・サポート
-      url: /log-trace/
-    - label: プライバシーポリシー
-      url: /log-trace/privacy/
-
 - name: Kodrill
   icon: /assets/icons/kodrill.png
   slug:
@@ -68,6 +56,19 @@
       url: /gitgym/
     - label: プライバシーポリシー
       url: /gitgym/privacy
+
+- name: LOG//TRACE
+  icon: /assets/icons/log-trace.png
+  slug: log-trace
+  kind: iOS アプリ
+  released: 2026-10-27
+  store: https://apps.apple.com/jp/app/log-trace/id6826163635
+  summary: ログを読んで攻撃の痕跡をたどる、セキュリティ推理ゲーム。日本語・English。
+  links:
+    - label: 紹介・サポート
+      url: /log-trace/
+    - label: プライバシーポリシー
+      url: /log-trace/privacy/
 
 - name: まちぬり
   icon: /assets/icons/machinuri.png
