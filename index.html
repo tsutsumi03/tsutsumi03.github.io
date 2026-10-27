@@ -56,7 +56,7 @@ title: "tsutsumi's products"
         {%- endif %}
         <div class="app-links">
           {%- for link in app.links %}
-          <a href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}">{{ link.label }}</a>
+          <a class="button" href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}">{{ link.label }}</a>
           {%- endfor %}
         </div>
       </div>

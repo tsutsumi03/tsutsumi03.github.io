@@ -30,7 +30,7 @@ GitGym (以下「本アプリ」) は、Git / GitHub のコマンドを練習す
 - 同意の確認: EU・英国・スイスなどでは、法令に従い、広告に関する同意を確認する画面を表示します。
 - 学習の進捗や設定の内容は、広告の配信には使いません。
 
-Google による情報の取り扱い: <https://policies.google.com/technologies/partner-sites>
+[Google による情報の取り扱い](https://policies.google.com/technologies/partner-sites)
 
 ## 外部への通信
 コマンドの練習は、すべて端末の中で行います。「GitHub」の画面や操作は、アプリ内で再現した練習用のもので、実際の GitHub とは接続しません。広告の配信のために Google と通信します。また、設定画面の「ご意見・不具合報告」「プライバシーポリシー」を押すと、端末のブラウザでそれぞれのページを開きます。
@@ -42,7 +42,7 @@ Google による情報の取り扱い: <https://policies.google.com/technologies
 本ポリシーを変更するときは、このページを更新します。課金などの機能を追加する場合は、事前にこのページで取り扱いを説明します。
 
 ## お問い合わせ
-- お問い合わせフォーム: <https://docs.google.com/forms/d/e/1FAIpQLSdPgMwpQ0UY452NT8IxL1iNRaFLXkrJ0drfTfPLe7ty7sf1pQ/viewform>
+- [お問い合わせフォーム](https://docs.google.com/forms/d/e/1FAIpQLSdPgMwpQ0UY452NT8IxL1iNRaFLXkrJ0drfTfPLe7ty7sf1pQ/viewform)
 
 お問い合わせフォームに入力された内容は、返信と改善のためにのみ使用し、第三者には提供しません。
 
@@ -73,7 +73,7 @@ The app shows ads using Google AdMob. To deliver ads, measure their performance,
 - Consent: in the EU, the UK, Switzerland, and similar regions, the app shows a screen to confirm your consent for ads, as required by law.
 - Your progress and settings are not used to deliver ads.
 
-How Google uses information: <https://policies.google.com/technologies/partner-sites>
+[How Google uses information](https://policies.google.com/technologies/partner-sites)
 
 ## Network communication
 Every command exercise runs on your device. The "GitHub" screens and actions are a simulation inside the app and do not connect to the real GitHub. The app communicates with Google to deliver ads. The "Send feedback" and "Privacy policy" rows in the settings screen open the corresponding page in your device's browser.
@@ -85,6 +85,6 @@ Because the app does not collect personal information, it does not share it with
 When this policy changes, this page will be updated. Before adding features such as purchases, we will explain how data is handled on this page.
 
 ## Contact
-- Contact form: <https://docs.google.com/forms/d/e/1FAIpQLSdPgMwpQ0UY452NT8IxL1iNRaFLXkrJ0drfTfPLe7ty7sf1pQ/viewform>
+- [Contact form](https://docs.google.com/forms/d/e/1FAIpQLSdPgMwpQ0UY452NT8IxL1iNRaFLXkrJ0drfTfPLe7ty7sf1pQ/viewform)
 
 Information you submit through the contact form is used only to reply and to improve the app, and is not shared with third parties.

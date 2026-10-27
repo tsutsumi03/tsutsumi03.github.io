@@ -28,7 +28,7 @@ title: まちぬり プライバシーポリシー
 - 訪問の記録・写真・「いまここ」の位置情報は、広告の配信には使いません。
 - 「まちぬり Pro」を購入すると、広告は表示されません。
 
-Google による情報の取り扱い: <https://policies.google.com/technologies/partner-sites>
+[Google による情報の取り扱い](https://policies.google.com/technologies/partner-sites)
 
 ## アプリ内課金について
 「まちぬり Pro」の購入・復元は、Apple の App Store の仕組みで行います。支払いの情報は Apple が取り扱い、開発者は受け取りません。本アプリは、購入済みかどうかを端末から App Store に確かめるだけで、購入の履歴を外部に送信しません。
