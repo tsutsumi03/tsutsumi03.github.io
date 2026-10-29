@@ -8,20 +8,6 @@
 # released は公開日 (YYYY-MM-DD)。公開済みのものだけ入れると、一覧に表示される。
 # languages はアプリ内で選べる言語。一覧の「対応言語」に、この順で表示する。
 
-- name: マネビュー
-  icon: /assets/icons/maneview.png
-  slug: maneview
-  kind: iOS アプリ
-  languages: [日本語]
-  released: 2026-10-29
-  store: https://apps.apple.com/jp/app/%E3%83%9E%E3%83%8D%E3%83%93%E3%83%A5%E3%83%BC/id6827163089
-  summary: 住宅ローン・自動車ローン・手取りと税金・積立・年金など、人生のお金の計算をまとめて保存・比較できるアプリ。
-  links:
-    - label: 紹介・サポート
-      url: /maneview/
-    - label: プライバシーポリシー
-      url: /maneview/privacy/
-
 - name: Kodrill
   icon: /assets/icons/kodrill.png
   slug:
@@ -62,6 +48,20 @@
       url: /gitgym/
     - label: プライバシーポリシー
       url: /gitgym/privacy
+
+- name: マネビュー
+  icon: /assets/icons/maneview.png
+  slug: maneview
+  kind: iOS アプリ
+  languages: [日本語]
+  released: 2026-10-29
+  store: https://apps.apple.com/jp/app/%E3%83%9E%E3%83%8D%E3%83%93%E3%83%A5%E3%83%BC/id6827163089
+  summary: 住宅ローン・自動車ローン・手取りと税金・積立・年金など、人生のお金の計算をまとめて保存・比較できるアプリ。
+  links:
+    - label: 紹介・サポート
+      url: /maneview/
+    - label: プライバシーポリシー
+      url: /maneview/privacy/
 
 - name: LOG//TRACE
   icon: /assets/icons/log-trace.png
