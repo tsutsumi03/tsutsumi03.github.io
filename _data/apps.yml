@@ -13,7 +13,8 @@
   slug: maneview
   kind: iOS アプリ
   languages: [日本語]
-  store:
+  released: 2026-10-29
+  store: https://apps.apple.com/jp/app/%E3%83%9E%E3%83%8D%E3%83%93%E3%83%A5%E3%83%BC/id6827163089
   summary: 住宅ローン・自動車ローン・手取りと税金・積立・年金など、人生のお金の計算をまとめて保存・比較できるアプリ。
   links:
     - label: 紹介・サポート
