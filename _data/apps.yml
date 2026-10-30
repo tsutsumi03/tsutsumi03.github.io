@@ -41,7 +41,8 @@
   slug: gitgym
   kind: iOS アプリ
   languages: [日本語, English]
-  store:
+  released: 2026-10-31
+  store: https://apps.apple.com/jp/app/gitgym-git%E3%82%92%E5%AE%9F%E8%B7%B5%E3%81%A7%E5%AD%A6%E3%81%B6/id6821364474
   summary: Git と GitHub のコマンドを、アプリの中で動かして学ぶ練習アプリ。
   links:
     - label: 紹介・サポート
