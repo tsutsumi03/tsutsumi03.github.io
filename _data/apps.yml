@@ -22,6 +22,19 @@
     - label: プライバシーポリシー
       url: https://kodrill.com/privacy
 
+- name: Invoa
+  icon: /assets/icons/invoa.png
+  slug: invoa
+  kind: iOS アプリ
+  languages: [日本語]
+  store:
+  summary: 請求書をスマホで作って、PDF で送れるアプリ。アカウント登録なしで、適格請求書にも対応。
+  links:
+    - label: 紹介・サポート
+      url: /invoa/
+    - label: プライバシーポリシー
+      url: /invoa/privacy/
+
 - name: NumCage
   icon: /assets/icons/numcage.png
   reading: ナンケージ
