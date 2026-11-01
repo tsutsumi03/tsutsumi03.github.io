@@ -18,7 +18,7 @@ description: 請求書をスマホで作って、PDF で送れる iOS アプリ�
 
 - 見積書・納品書・領収書・受領書の作成と、見積書から請求書への変換
 - iCloud 同期 (同じ Apple アカウントの iPhone の間)
-- PDF のフッタ「Invoa で作成」の非表示
+- PDF のフッタ「Created with Invoa」の非表示
 - 期間などでの絞り込み書き出しと、会計ソフト向けに列を組める CSV の書き出し
 - 書類の CSV の取り込み
 
