@@ -35,6 +35,12 @@ title: "tsutsumi's products"
       </div>
       <p class="app-summary">{{ app.summary }}</p>
       <dl class="app-meta">
+        {%- if app.category %}
+        <div>
+          <dt>カテゴリ</dt>
+          <dd>{{ app.category }}</dd>
+        </div>
+        {%- endif %}
         {%- if app.languages %}
         <div>
           <dt>対応言語</dt>
