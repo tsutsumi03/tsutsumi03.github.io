@@ -44,12 +44,12 @@ title: "tsutsumi's products"
         {%- if app.languages %}
         <div>
           <dt>対応言語</dt>
-          <dd class="app-langs">{% for lang in app.languages %}<span class="tag">{{ lang }}</span>{% endfor %}</dd>
+          <dd>{{ app.languages | join: " / " }}</dd>
         </div>
         {%- endif %}
         <div>
           <dt>リリース</dt>
-          <dd>{% if app.released %}{{ app.released | date: "%Y年%-m月%-d日" }}{% else %}<span class="tag tag-soon">近日公開予定</span>{% endif %}</dd>
+          <dd>{% if app.released %}{{ app.released | date: "%Y年%-m月%-d日" }}{% else %}<span class="app-soon">近日公開予定</span>{% endif %}</dd>
         </div>
       </dl>
       <div class="app-actions">
