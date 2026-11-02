@@ -285,18 +285,7 @@ body:has(.content-home) .wrap { max-width: 1120px; }
 
 .app-meta dd { margin: 0; }
 
-.app-langs { display: flex; flex-wrap: wrap; gap: 6px; }
-
-.tag {
-  display: inline-block;
-  padding: 0 8px;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  font-size: 12px;
-  line-height: 1.7;
-}
-
-.tag-soon { color: var(--muted); border-style: dashed; }
+.app-soon { color: var(--muted); }
 
 .app-summary { margin: 0; flex: 1; }
 
