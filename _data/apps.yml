@@ -30,7 +30,8 @@
   kind: iOS アプリ
   category: ビジネス
   languages: [日本語]
-  store:
+  released: 2026-11-05
+  store: https://apps.apple.com/jp/app/invoa-%E8%AB%8B%E6%B1%82%E6%9B%B8%E4%BD%9C%E6%88%90-%E3%82%A4%E3%83%B3%E3%83%9C%E3%82%A4%E3%82%B9%E5%AF%BE%E5%BF%9C/id6829443950
   summary: 請求書をスマホで作って、PDF で送れるアプリ。アカウント登録なしで、適格請求書にも対応。
   links:
     - label: 紹介・サポート
