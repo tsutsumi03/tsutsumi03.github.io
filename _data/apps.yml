@@ -9,6 +9,19 @@
 # category はアプリのカテゴリ (App Store のカテゴリ名に合わせる)。一覧の「カテゴリ」に表示する。
 # languages はアプリ内で選べる言語。一覧の「対応言語」に、この順で表示する。
 
+- name: Carmio
+  slug: carmio
+  kind: iOS アプリ
+  category: ライフスタイル
+  languages: [日本語]
+  store:
+  summary: 給油・ドライブ・メンテを数タップで記録して、愛車を「推し」のように楽しむ記録帳アプリ。
+  links:
+    - label: 紹介・サポート
+      url: /carmio/
+    - label: プライバシーポリシー
+      url: /carmio/privacy/
+
 - name: Kodrill
   icon: /assets/icons/kodrill.png
   slug:

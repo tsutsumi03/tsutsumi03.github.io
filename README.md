@@ -3,6 +3,11 @@
 アプリの紹介・プライバシーポリシー・サポート窓口の公開ページです。
 Public pages (about, privacy policy, and support) for my apps.
 
+## Carmio
+
+- 紹介・サポート: https://tsutsumi03.github.io/carmio/
+- プライバシーポリシー: https://tsutsumi03.github.io/carmio/privacy/
+
 ## Invoa
 
 - 紹介・サポート: https://tsutsumi03.github.io/invoa/
