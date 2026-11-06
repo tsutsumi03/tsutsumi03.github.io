@@ -27,6 +27,8 @@ title: "tsutsumi's products"
       <div class="app-card-head">
         {%- if app.icon %}
         <img class="app-icon" src="{{ app.icon | relative_url }}" alt="" width="56" height="56" loading="lazy">
+        {%- else %}
+        <span class="app-icon app-icon-placeholder" aria-hidden="true">?</span>
         {%- endif %}
         <div>
           <h3><a href="{{ home }}">{{ app.name }}</a></h3>
