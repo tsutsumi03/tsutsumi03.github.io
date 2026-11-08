@@ -10,6 +10,7 @@
 # languages はアプリ内で選べる言語。一覧の「対応言語」に、この順で表示する。
 
 - name: Carmio
+  icon: /assets/icons/carmio.png
   slug: carmio
   kind: iOS アプリ
   category: ライフスタイル
