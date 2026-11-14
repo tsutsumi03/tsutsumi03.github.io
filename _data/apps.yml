@@ -16,7 +16,7 @@
   category: 教育
   languages: [日本語, English]
   store:
-  summary: クラウドの構成を、要件の数字を読んで組めるようになるための学習アプリ。
+  summary: AWS の構成を、要件に合わせて組めるようになるための学習アプリ。
   links:
     - label: 紹介・サポート
       url: /archgym/

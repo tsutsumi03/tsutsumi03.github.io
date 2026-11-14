@@ -11,7 +11,7 @@ title: ArchGym
 
 クラウドの構成を、要件から組めるようになるための学習アプリです。
 
-「1 日 10 万アクセス」「データは 7 年保管」といった要件の数字を読んで、構成図の空いたところにサービスを置いていきます。おかしな構成を見つける問題や、要件に合う構成を選ぶ問題もあります。ひとつのシステムを、ステップごとに組む → 白紙から組む → 障害を調べる、の順で練習できます。
+「1 日 10 万アクセス」「データは 7 年保管」といった条件に合うように、構成図の空いたところにサービスを置いていきます。おかしな構成を見つける問題や、要件に合う構成を選ぶ問題もあります。ひとつのシステムを、ステップごとに組む → 白紙から組む → 障害を調べる、の順で練習できます。
 
 - [プライバシーポリシー](privacy/)
 - [お問い合わせフォーム](https://docs.google.com/forms/d/e/1FAIpQLSc22x2enknxeM5Jtw5ZwzP-NOTq3x87pMYfP2HOKilnM8x-eg/viewform)
@@ -43,7 +43,7 @@ title: ArchGym
 
 ArchGym is a learning app that helps you design cloud architectures from requirements.
 
-Read the numbers in the requirements, such as "100,000 visits a day" or "keep data for 7 years", and place services into the empty spots of an architecture diagram. There are also questions where you find what is wrong with a design, and questions where you choose the design that meets the requirements. For each system, you practice in order: build it step by step, build it from a blank diagram, then investigate an outage.
+Place services into the empty spots of an architecture diagram so that it meets requirements such as "100,000 visits a day" or "keep data for 7 years". There are also questions where you find what is wrong with a design, and questions where you choose the design that meets the requirements. For each system, you practice in order: build it step by step, build it from a blank diagram, then investigate an outage.
 
 - [Privacy Policy](privacy/#english)
 - [Contact form](https://docs.google.com/forms/d/e/1FAIpQLSc22x2enknxeM5Jtw5ZwzP-NOTq3x87pMYfP2HOKilnM8x-eg/viewform)
