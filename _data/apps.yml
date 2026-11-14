@@ -9,6 +9,19 @@
 # category はアプリのカテゴリ (App Store のカテゴリ名に合わせる)。一覧の「カテゴリ」に表示する。
 # languages はアプリ内で選べる言語。一覧の「対応言語」に、この順で表示する。
 
+- name: ArchGym
+  slug: archgym
+  kind: iOS アプリ
+  category: 教育
+  languages: [日本語, English]
+  store:
+  summary: クラウドの構成を、要件の数字を読んで組めるようになるための学習アプリ。
+  links:
+    - label: 紹介・サポート
+      url: /archgym/
+    - label: プライバシーポリシー
+      url: /archgym/privacy/
+
 - name: Carmio
   icon: /assets/icons/carmio.png
   slug: carmio

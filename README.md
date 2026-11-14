@@ -3,6 +3,11 @@
 アプリの紹介・プライバシーポリシー・サポート窓口の公開ページです。
 Public pages (about, privacy policy, and support) for my apps.
 
+## ArchGym
+
+- 紹介・サポート / About and support: https://tsutsumi03.github.io/archgym/
+- プライバシーポリシー / Privacy Policy: https://tsutsumi03.github.io/archgym/privacy/
+
 ## Carmio
 
 - 紹介・サポート: https://tsutsumi03.github.io/carmio/
