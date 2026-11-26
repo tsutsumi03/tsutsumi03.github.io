@@ -7,7 +7,7 @@ title: GitGym Privacy Policy
 
 # GitGym プライバシーポリシー
 
-最終更新日: 2026-10-10
+最終更新日: 2026-11-26
 
 GitGym (以下「本アプリ」) は、Git / GitHub のコマンドを練習するための学習アプリです。本アプリは、あなたの氏名・メールアドレスなどの個人情報を収集しません。ただし、無料で提供するために広告を表示しており、広告の配信にあたって Google が情報を取得することがあります (下記「広告について」)。
 
@@ -32,14 +32,19 @@ GitGym (以下「本アプリ」) は、Git / GitHub のコマンドを練習す
 
 [Google による情報の取り扱い](https://policies.google.com/technologies/partner-sites)
 
+## GitGym Pro (App 内課金) について
+広告を消し、上級のステージとクイズが使えるようになる「GitGym Pro」は、Apple の App Store を通じた買い切りの App 内課金です。支払いと購入の情報は Apple が取り扱い、開発者はあなたの支払い情報や Apple アカウントの情報を受け取りません。本アプリは、購入済みかどうかだけを App Store に確認し、その結果を端末の中に保存します。GitGym Pro を購入済みの場合、本アプリは広告を表示せず、広告のための追跡の許可や同意の確認も求めません。
+
+[Apple による情報の取り扱い](https://www.apple.com/legal/privacy/)
+
 ## 外部への通信
-コマンドの練習は、すべて端末の中で行います。「GitHub」の画面や操作は、アプリ内で再現した練習用のもので、実際の GitHub とは接続しません。広告の配信のために Google と通信します。また、設定画面の「ご意見・不具合報告」「プライバシーポリシー」を押すと、端末のブラウザでそれぞれのページを開きます。
+コマンドの練習は、すべて端末の中で行います。「GitHub」の画面や操作は、アプリ内で再現した練習用のもので、実際の GitHub とは接続しません。広告の配信のために Google と、GitGym Pro の購入・確認のために Apple の App Store と通信します。また、設定画面の「ご意見・不具合報告」「プライバシーポリシー」を押すと、端末のブラウザでそれぞれのページを開きます。
 
 ## 第三者への提供
 本アプリは、個人情報を収集しないため、第三者に提供することはありません。広告の配信事業者 (Google) が取得する情報は、上記「広告について」のとおりです。
 
 ## 変更
-本ポリシーを変更するときは、このページを更新します。課金などの機能を追加する場合は、事前にこのページで取り扱いを説明します。
+本ポリシーを変更するときは、このページを更新します。データの取り扱いが変わる機能を追加する場合は、事前にこのページで説明します。
 
 ## お問い合わせ
 - [お問い合わせフォーム](https://docs.google.com/forms/d/e/1FAIpQLSdPgMwpQ0UY452NT8IxL1iNRaFLXkrJ0drfTfPLe7ty7sf1pQ/viewform)
@@ -50,7 +55,7 @@ GitGym (以下「本アプリ」) は、Git / GitHub のコマンドを練習す
 
 # GitGym Privacy Policy
 
-Last updated: 2026-10-10
+Last updated: 2026-11-26
 
 GitGym ("the app") is a learning app for practicing Git and GitHub commands. The app does not collect personal information such as your name or email address. However, to offer the app for free it shows ads, and Google may collect information to deliver them (see "About ads" below).
 
@@ -75,14 +80,19 @@ The app shows ads using Google AdMob. To deliver ads, measure their performance,
 
 [How Google uses information](https://policies.google.com/technologies/partner-sites)
 
+## About GitGym Pro (in-app purchase)
+"GitGym Pro", which removes ads and unlocks advanced stages and quizzes, is a one-time in-app purchase made through Apple's App Store. Apple handles payment and purchase information; the developer does not receive your payment details or Apple Account information. The app only checks with the App Store whether you own GitGym Pro and stores the result on your device. If you own GitGym Pro, the app shows no ads and does not ask for tracking permission or ad consent.
+
+[How Apple handles information](https://www.apple.com/legal/privacy/)
+
 ## Network communication
-Every command exercise runs on your device. The "GitHub" screens and actions are a simulation inside the app and do not connect to the real GitHub. The app communicates with Google to deliver ads. The "Send feedback" and "Privacy policy" rows in the settings screen open the corresponding page in your device's browser.
+Every command exercise runs on your device. The "GitHub" screens and actions are a simulation inside the app and do not connect to the real GitHub. The app communicates with Google to deliver ads, and with Apple's App Store to make and verify GitGym Pro purchases. The "Send feedback" and "Privacy policy" rows in the settings screen open the corresponding page in your device's browser.
 
 ## Sharing with third parties
 Because the app does not collect personal information, it does not share it with third parties. The information that the ad provider (Google) collects is described in "About ads" above.
 
 ## Changes
-When this policy changes, this page will be updated. Before adding features such as purchases, we will explain how data is handled on this page.
+When this policy changes, this page will be updated. Before adding features that change how data is handled, we will explain them on this page.
 
 ## Contact
 - [Contact form](https://docs.google.com/forms/d/e/1FAIpQLSdPgMwpQ0UY452NT8IxL1iNRaFLXkrJ0drfTfPLe7ty7sf1pQ/viewform)
